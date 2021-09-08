@@ -43,4 +43,22 @@ a, a:link{
     margin: 0 auto;
     color: white;
     display: flex;
+    justify-content: space-between;
+}
+.vip{
+    display: flex;
+}
+.vip li {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.icon-left {
+    display: flex;
+}
+#gnb-left {
+    display: flex;
+}
+#gnb-left > li {
+    width: 150px;
+    text-align: center;
 }
